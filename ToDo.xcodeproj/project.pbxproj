@@ -16,6 +16,7 @@
 		B8C3F7232BC03DBA0086DA68 /* ToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3F7222BC03DBA0086DA68 /* ToDoTests.swift */; };
 		B8C3F72D2BC03DBA0086DA68 /* ToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3F72C2BC03DBA0086DA68 /* ToDoUITests.swift */; };
 		B8C3F72F2BC03DBA0086DA68 /* ToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3F72E2BC03DBA0086DA68 /* ToDoUITestsLaunchTests.swift */; };
+		B8EDA3CB2BC3C87C00E5E997 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EDA3CA2BC3C87C00E5E997 /* Documentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B8C3F7282BC03DBA0086DA68 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C3F72C2BC03DBA0086DA68 /* ToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITests.swift; sourceTree = "<group>"; };
 		B8C3F72E2BC03DBA0086DA68 /* ToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8EDA3CA2BC3C87C00E5E997 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B8C3F70D2BC03DB30086DA68 /* SceneDelegate.swift */,
 				B8C3F70F2BC03DB30086DA68 /* ViewController.swift */,
 				B8C3F7112BC03DB40086DA68 /* Main.storyboard */,
+				B8EDA3CA2BC3C87C00E5E997 /* Documentation.swift */,
 				B8C3F7142BC03DB90086DA68 /* Assets.xcassets */,
 				B8C3F7162BC03DB90086DA68 /* LaunchScreen.storyboard */,
 				B8C3F7192BC03DB90086DA68 /* Info.plist */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8EDA3CB2BC3C87C00E5E997 /* Documentation.swift in Sources */,
 				B8C3F7102BC03DB30086DA68 /* ViewController.swift in Sources */,
 				B8C3F70C2BC03DB30086DA68 /* AppDelegate.swift in Sources */,
 				B8C3F70E2BC03DB30086DA68 /* SceneDelegate.swift in Sources */,
@@ -454,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -481,7 +485,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.ToDo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

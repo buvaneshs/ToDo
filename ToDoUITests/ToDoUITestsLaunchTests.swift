@@ -2,8 +2,6 @@
 //  ToDoUITestsLaunchTests.swift
 //  ToDoUITests
 //
-//  Created by M_AMBIN02825 on 05/04/24.
-//
 
 import XCTest
 
